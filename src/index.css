@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 스크롤바 숨기기 (모바일 느낌) */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
+
+/* 앱 전체 폰트 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
+    'Pretendard', 'Noto Sans KR', sans-serif;
+  background-color: #f8fafc;
+}
+
+/* 하단 내비게이션 공간 확보 */
+.page-content {
+  padding-bottom: 80px;
+}
+
+/* 버튼 누를 때 효과 */
+button:active {
+  transform: scale(0.97);
+}
